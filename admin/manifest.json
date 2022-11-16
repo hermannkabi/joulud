@@ -1,6 +1,6 @@
 {
-    "name": "Jõuluäpp",
-    "short_name": "Jõulud",
+    "name": "Jõulumäng",
+    "short_name": "Jõulumäng",
     "start_url": "./",
     "display": "standalone",
     "background_color": "#0175C2",
