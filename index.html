@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jõulud 2022</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+
+    <div id="timer" class="main-content">
+        <div class="time-shower">
+            <h1 id="hours">03</h1>
+            <p>TUNDI</p>
+        </div>
+        <div class="time-shower">
+            <h1 id="minutes">21</h1>
+            <p>MINUTIT</p>
+        </div>
+        <div class="time-shower">
+            <h1 id="seconds">33</h1>
+            <p>SEKUNDIT</p>
+        </div>
+        <h2>JÕULUDENI</h2>
+    </div>
+
+    <div class="main-content" id="qr-codes" hidden>
+        <h1>Head jõulumängu!</h1>
+        <div class="qr-code">
+            <img height="100px" src="qrcode_play.google.com.png" alt="">
+            <h2>Android</h2>
+        </div>
+        <div class="qr-code">
+            <img height="100px" src="qrcode_apps.apple.com.png" alt="">
+            <h2>iOS</h2>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="time.js"></script>
+</body>
+</html>

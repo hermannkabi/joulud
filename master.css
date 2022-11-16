@@ -1,0 +1,50 @@
+body{
+    background-color: #CFE8A9;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+.main-content{  
+  
+    margin: auto;
+    width: 40%;
+    border-radius: 12px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.time-shower{
+    margin: 10px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.time-shower > h1{
+    font-family: "Alfa Slab One", monospace;
+    font-size: 35px;
+}
+
+.time-shower > p{
+    font-size: 20px;
+    color: lightgray;
+}
+
+.qr-code{
+    display: inline-block;
+    margin: 10px 50px;
+}
+
+#timer, #qr-codes{
+    color: white;
+    background-color: #DC3535;
+    -webkit-box-shadow: 0px 16px 48px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 16px 48px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 16px 48px -8px rgba(0,0,0,0.75);
+
+}
