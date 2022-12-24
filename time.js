@@ -1,5 +1,5 @@
-const christmas = 1671904800;
-// const christmas = 1667755560;
+const christmas = 1671897600;
+// const christmas = 1671875175;
 
 
 
@@ -11,6 +11,12 @@ setInterval(function (){
     if(timeRemaining < 0){
         if(timeRemaining == -1){
             //Show fireworks, snow etc celebrations
+            
+            Array.from(document.getElementsByClassName("snowflake")).forEach(function (el){
+                el.style.display = "block";
+            });
+            var audio = new Audio('sleighbells.mp3');
+            audio.play();
         }
         document.getElementById("timer").style.display = "none";
         document.getElementById("qr-codes").style.display = "block";
