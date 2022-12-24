@@ -4,9 +4,8 @@
         margin: auto !important;
     }
     body{
-        padding-top: 100px;
-        display: block !important;
         width: auto !important;
+        overflow: scroll !important;
     }
 
 }

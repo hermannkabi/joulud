@@ -1,7 +1,14 @@
-const christmas = 1671897600;
-// const christmas = 1671875175;
+// const christmas = 1671897600;
+const christmas = 1671875175;
 
 
+document.getElementById("android-qr").addEventListener("click", function (){
+    window.location.href = "https://play.google.com/store/apps/details?id=com.hermannkabi.jouluapp";
+}); 
+
+document.getElementById("ios-qr").addEventListener("click", function (){
+    window.location.href = "https://apps.apple.com/app/joulumang/id6444681711";
+}); 
 
 
 setInterval(function (){
