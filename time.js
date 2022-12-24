@@ -1,5 +1,5 @@
-const christmas = 1671897600;
-//const christmas = 1671875175;
+//const christmas = 1671897600;
+const christmas = 1671875175;
 
 
 document.getElementById("android-qr").addEventListener("click", function (){
